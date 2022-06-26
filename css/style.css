@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    min-width: 1024px;
+}
+
+.top-bar{
+    display: flex;
+    background-color: black;
+}
+
+.top-bar ul{
+    height: 40px;
+    background-color: black;
+    padding: 0 20px;
+}
+
+.top-bar ul li{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.top-bar ul li a{
+    text-decoration: none;
+    color: rgb(103, 97, 97);
+}
+
+.top-bar ul li a:hover{
+    color: #fff;
+}
+
+.top-bar ul li:not(:last-child):after{
+    content: "|";
+    color: rgb(103, 97, 97);
+    margin: 0 5px;
+}
+
+.top-bar .bar-right .login span{
+    color: rgb(106, 92, 92);
+    font-size: 12px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.top-bar .bar-right .login{
+    margin-right: 25px;
+}
+
+.top-bar .bar-right .login span:hover{
+    color: #fff;
+}
+
+.top-bar .bar-right .shop-car{
+    color: bisque;
+    background-color: brown;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.top-bar .bar-right .shop-car span{
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.top-bar .bar-right .shop-car:hover{
+    background-color: #fff;
+    color:coral;
+}
+
+.top-bar .bar-right .shop-car svg{
+    fill: bisque;
+    transform: translateY(3.5px);
+}
+
+.top-bar .bar-right .shop-car:hover svg{
+    fill: coral;
+}
+
+.top-bar .bar-right{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.top-bar .bar-right .shop-car,
+.top-bar .bar-right .login{
+    display: inline-block;
+}
+
+.shop-car{
+    position: relative;
+}
+
+.shop-detail{
+    position: absolute;
+    right: 0;
+    color: black;
+    width: 300px;
+    height: 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 5px 7px 4px #888;
+    font-size: 10px;
+    cursor: default;
+    display: flex;
+    overflow:hidden;
+    transition: height 200ms;
+}
+
+.top-bar .bar-right .shop-car:hover .shop-detail{
+    height: 100px;
+}
