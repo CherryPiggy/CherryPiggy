@@ -102,16 +102,103 @@ body{
     color: black;
     width: 300px;
     height: 0px;
+    display: flex;
     justify-content: center;
     align-items: center;
     box-shadow:0px 5px 7px 0px #888;
     font-size: 10px;
     cursor: default;
-    display: flex;
     overflow:hidden;
     transition: height 200ms;
 }
 
 .top-bar .bar-right .shop-car:hover .shop-detail{
     height: 100px;
+}
+
+.top-header .logo{
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.top-header .logo span{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    transition: transform 200ms;
+}
+
+.top-header .logo span img{
+    width: 100%;
+    height: 100%;
+}
+
+.top-header .logo:hover span{
+    transform: translateX(-100%);
+}
+
+.top-header{
+    padding: 0 20px;
+    display: flex;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav{
+    display: flex;
+    height: 54px;
+    /* line-height: 54px; */
+    align-items: center;
+    margin-left: auto;
+}
+
+.shop-detail{
+    background-color: #fff;
+    /* z-index: 999; */
+}
+
+.header-nav ul{
+    margin-right: 50px;
+}
+
+.header-nav ul li:not(:last-child){
+    margin-right: 20px;
+}
+
+.header-nav ul li{
+    cursor: pointer;
+    transition: color 500ms;
+}
+.header-nav ul li:hover{
+    color:coral;
+}
+
+/* .header-nav ul li {
+    position: relative;
+} */
+
+.header-nav ul li .products{
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    /* border:1px solid #000; */
+    left: 0;
+    top: 100px;
+    height: 0;
+    transition: height 200ms;
+}
+
+.header-nav ul li .products img{
+    width: 100%;
+}
+
+.header-nav ul li:hover .products{
+    height: 200px;
 }
