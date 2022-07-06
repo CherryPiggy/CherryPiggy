@@ -1,0 +1,74 @@
+[
+  { "name": "云服务", "link": "./index.html", "description": "小米官网" },
+  {
+    "name": "MIUI",
+    "link": "https://www.miui.com/",
+    "description": "MIUI",
+    "target": "_blank"
+  },
+  {
+    "name": "loT",
+    "link": "https://iot.mi.com/",
+    "description": "小米IoT开发者平台",
+    "target": "_blank"
+  },
+  {
+    "name": "云服务",
+    "link": "https://i.mi.com/",
+    "description": "小米云服务",
+    "target": "_blank"
+  },
+  {
+    "name": "天星数科",
+    "link": "https://airstar.com/home",
+    "description": "天星数科",
+    "target": "_blank"
+  },
+  {
+    "name": "有品",
+    "link": "https://youpin.mi.com/",
+    "description": "小米有品",
+    "target": "_blank"
+  },
+  {
+    "name": "小爱开放平台 ",
+    "link": "https://xiaoai.mi.com/",
+    "description": "小爱开放平台",
+    "target": "_blank"
+  },
+  {
+    "name": "企业团购 ",
+    "link": "https://qiye.mi.com/",
+    "description": "企业团购",
+    "target": "_blank"
+  },
+  {
+    "name": "资质证照",
+    "link": "https://www.mi.com/aptitude/list/?id=88",
+    "description": "资质证照",
+    "target": "_blank"
+  },
+  {
+    "name": "协议规则",
+    "link": "https://www.mi.com/aptitude/list/",
+    "description": "协议规则",
+    "target": "_blank"
+  },
+  {
+    "name": "协议规则",
+    "link": "https://www.mi.com/aptitude/list/",
+    "description": "协议规则",
+    "target": "_blank"
+  },
+  {
+    "name": "下载app",
+    "link": "https://www.mi.com/appdownload",
+    "description": "下载app",
+    "target": "_blank"
+  },
+  {
+    "name": "Select Location",
+    "link": "javascript:;",
+    "description": "Select Location"
+  }
+]
